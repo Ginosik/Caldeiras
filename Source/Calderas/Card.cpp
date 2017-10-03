@@ -47,7 +47,6 @@ int ACard::GetIndex()
 
 void ACard::OnTouchBegin(ETouchIndex::Type Type, UPrimitiveComponent * TouchedComponent)
 {
-	UE_LOG(LogTemp, Warning, TEXT("TOUCH!"));
 
 	UE_LOG(LogTemp, Warning, TEXT("TOUCH!"));
 	if (bTurned) {

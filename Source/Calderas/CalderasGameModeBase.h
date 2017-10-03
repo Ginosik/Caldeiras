@@ -14,7 +14,9 @@ class CALDERAS_API ACalderasGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
+public:
+
+	ACalderasGameModeBase();
 	
 	
 };
