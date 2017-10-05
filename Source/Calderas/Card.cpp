@@ -42,7 +42,7 @@ void ACard::Tick(float DeltaTime)
 
 int ACard::GetIndex()
 {
-	return 0;
+	return Index;
 }
 
 void ACard::OnTouchBegin(ETouchIndex::Type Type, UPrimitiveComponent * TouchedComponent)

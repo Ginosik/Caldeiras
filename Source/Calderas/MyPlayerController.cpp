@@ -2,7 +2,6 @@
 
 #include "MyPlayerController.h"
 
-
 AMyPlayerController::AMyPlayerController()
 {
 	bEnableTouchEvents = true;
