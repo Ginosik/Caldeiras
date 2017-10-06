@@ -25,6 +25,8 @@ public:
 
 	int GetIndex();
 
+	void TurnDown();
+
 private:
 
 	UPROPERTY(EditAnywhere)

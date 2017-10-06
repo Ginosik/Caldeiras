@@ -45,6 +45,12 @@ int ACard::GetIndex()
 	return Index;
 }
 
+void ACard::TurnDown()
+{
+	Sprite->SetSprite(ClosedCard);
+	bTurned = false;
+}
+
 void ACard::OnTouchBegin(ETouchIndex::Type Type, UPrimitiveComponent * TouchedComponent)
 {
 
